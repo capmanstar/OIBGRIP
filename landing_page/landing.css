@@ -1,0 +1,282 @@
+/* Web Dev Internship Oasis Infobyte
+     Code by - Darshan Sonawane
+     3rd year, Computre Engineering */
+
+
+body{
+             
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+/* Front section */
+.bgsec{
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 75px;
+    overflow: hidden;
+}
+
+/* Containers */
+
+.container1{
+    background-color: lightgray;
+    border: 2px solid black; 
+    color: black;
+    margin: auto;
+    padding: 75px;
+    overflow: hidden;
+}
+
+.container2{
+    
+    border: 2px solid black;
+    margin: auto;
+    overflow: hidden;
+    background: lightgray;
+    /* margin-top: 20px; */
+
+    
+    padding: 75px;
+    overflow: hidden;
+}
+
+.container2 section a{
+    text-decoration: none;
+}
+
+.container2 section a:hover{
+    color: black;
+}
+
+.container3{
+    border: 2px solid black;
+    background-color: lightgray;
+    color: black;
+    margin: auto;
+    padding: 75px;
+    overflow: hidden;
+}
+
+.container4{
+    background-color: lightgray;
+    border: 2px solid black;
+    border-bottom: none;
+    color: black;
+    margin: 127px 1px;
+    padding: 75px;
+}
+
+.container4{
+    background-color: lightgray;
+    /* border: 2px solid red; */
+    color: black;
+    margin: auto;
+    padding: 75px;
+    overflow: hidden;
+}
+
+.container4 button {
+    margin: 10px 9px;
+    background: #a220b2;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.container4 h1{
+text-align: center;
+}
+
+.container4 button {
+    display: block;
+    width: 8%;
+    margin: 20px auto;
+    }
+    
+
+.container5{
+    background-color: lightgray;
+        /* border: 2px solid red; */
+        color: black;
+        margin: auto;
+        overflow: hidden;
+        padding: 1px;
+    }
+
+/* Header */
+
+.navleft{
+    /* border: 2px solid red;
+    display: inline-block;
+    left: 20px;
+    top: 10px;
+    position: absolute;
+    margin: 0px auto;
+    top: 0px;
+    cursor: pointer;*/
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navleft:hover .dropdown {display: block;}
+.dropdown a:hover {background-color: #ddd;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.navleft a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropbtn{
+    margin: 10px 9px;
+    padding: 6px;
+    background: #a220b2;
+    size: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 41px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.navright{
+    /* border: 2px solid red; */
+    display: inline-block;
+    right: 20px;
+    position: absolute;
+    margin: 12px auto;
+    top: 0px;
+}
+
+
+.btn{
+    margin: 10px 9px;
+    padding: 6px;
+    background: #a220b2;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn:hover{
+    color: black;
+    
+}
+
+
+/* Contact form */
+
+.contact input {
+font-family: 'Dancing Script', cursive;
+text-align: center;
+display: block;
+width: 508px;
+padding: 1px;
+border: 2px solid black;
+margin: 11px auto;
+font-size: 25px;
+border-radius: 20px;
+}
+
+/* Icons */
+
+.fa {
+text-decoration: none;  
+padding: 20px;  
+text-align: center;  
+margin: 5px 2px;  
+font-size: 49px;  
+width: 50px;
+color: lightcoral;  
+}
+
+.fa:hover{
+color: blue;
+}
+
+.contact input {
+font-family: 'Dancing Script', cursive;
+text-align: center;
+display: block;
+width: auto;
+padding: 1px;
+border: 2px solid black;
+width: 508px;
+margin: auto;
+font-size: 25px;
+border-radius: 20px;
+overflow: hidden;
+}
+
+
+/* Bg img */
+
+#bg{
+margin-left: auto;
+margin-right: auto;
+display: block;
+/* width: 50%; */
+}
+
+
+/* Visit BLog button */
+
+.blog{
+    /* margin: 10px 9px; */
+    background: #a220b2;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    width: 8%;
+    margin: 20px auto;
+}
+
+.blog:hover{
+    color: black;
+}
+
